@@ -1881,6 +1881,10 @@ supports-color@^4.2.1:
   dependencies:
     has-flag "^2.0.0"
 
+sweetalert2@^7.29.1:
+  version "7.29.1"
+  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-7.29.1.tgz#506d2d5c4a862c8469f67384d374432a03c49005"
+
 tapable@^0.2.7:
   version "0.2.8"
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-0.2.8.tgz#99372a5c999bf2df160afc0d74bed4f47948cd22"

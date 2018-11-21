@@ -6,6 +6,7 @@
   "author": "Ryan Weaver <ryan@thatsquality.com>",
   "license": "MIT",
   "devDependencies": {
+    "jquery": "^3.3.1",
     "webpack": "3"
   }
 }

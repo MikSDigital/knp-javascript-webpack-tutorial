@@ -4,11 +4,10 @@ const Helper    = require('./RepLogAppHelper');
 const $         = require('jquery');
 const swal      = require('sweetalert2');
 
-(function(window, Routing) {
 
-    let HelperInstances = new WeakMap();
+let HelperInstances = new WeakMap();
 
-    class RepLogApp {
+class RepLogApp {
         constructor($wrapper) {
             this.$wrapper = $wrapper;
             this.repLogs = [];
@@ -216,5 +215,5 @@ const swal      = require('sweetalert2');
 </tr>
 `;
 
-    window.RepLogApp = RepLogApp;
-})(window, Routing);
+module.exports = RepLogApp;
+
